@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@font-face {
+    font-family: qi;
+    src: url(../font/drechifont-monospaced.ttf);
+    src: url(../font/drechifont-monospaced.woff);
+  }
+  
+  @font-face {
+    font-family: blackti;
+    src: url(../font/中黑體.ttc);
+  }
+  
+  @font-face {
+    font-family: Cooper Std;
+    src: url(../font/AnyConv.com__CooperBlackStd.ttf);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+iframe{
+    height: 50px;
+    width: 100%;
+  }
+
+.qatitle {
+    font-family: qi;
+    font-size: 32px;
+    text-align: center;
+    margin: 15px;
+    margin-left: 150px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+.qaarea {
+    margin-top: 5px;
+    margin: auto;
+    margin-bottom: 150pxs;
+    width: 1200px;
+    height: auto;
+    float: left;
+    border-radius: 30px;
+    background-color: #789cce;
+}
+
+.question {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: blackti;
+    font-size: 24px;
+}
+
+.answer {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #C3D6F2;
+    font-family: blackti;
+    font-size: 18px;
+    margin-bottom: 0px;
+
+}
+
+footer {
+
+    text-align: center;
+    font-size: 15px;
+    font-family: Adobe Caslon Pro;
+    background-color: #C3D6F2;
+    color: white;
+    padding: 10px;
+}
+
+
+.contactarea {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px;
+    margin-bottom: 80px;
+}
+
+.contactus {
+    width: 500px;
+    padding: 20px 30px;
+    background-color: #fff;
+    float: left;
+    margin-left: 20%;
+    margin-right: 150px;
+}
+
+.contactus h1 {
+    margin-bottom: 15px;
+    font-family: Cooper Std;
+    letter-spacing: 2px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.contactus input {
+    margin-top: 5px;
+    font-family: blackti;
+    font-size: 16px;
+    color: #202020;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #353535;
+    padding: 2px 0px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contactus p {
+    font-family: blackti;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.contactus textarea {
+    font-family: blackti;
+    font-size: 16px;
+    color: #353535;
+    resize: none;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #353535;
+    outline: none;
+}
+
+.contactus button {
+    font-family: Cooper Std;
+    font-size: 14px;
+    letter-spacing: 3px;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: #353535;
+    border: 1px solid #353535;
+    transition: .3s;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    margin-right: 50%;
+}
+
+.map iframe {
+    width: 550px;
+    height: 450px;
+    margin-right: 500px;
+    border: 0;
+    position: absolute;
+}

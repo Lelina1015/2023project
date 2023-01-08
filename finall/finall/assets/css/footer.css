@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@font-face {
+    font-family: qi;
+    src: url(../font/drechifont-monospaced.ttf);
+    src: url(../font/drechifont-monospaced.woff);
+  }
+  
+  @font-face {
+    font-family: blackti;
+    src: url(../font/中黑體.ttc);
+  }
+  
+  @font-face {
+    font-family: Cooper Std;
+    src: url(../font/AnyConv.com__CooperBlackStd.ttf);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Adobe Caslon Pro;
+    background-color: #C3D6F2;
+    color: white;
+    padding: 5px;
+    position: relative;
+    bottom: 0; 
+}
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: Adobe Caslon Pro;
+    background-color: #C3D6F2;
+    color: white;
+    padding: 5px;
+    position: relative;
+    bottom: 0; 
+}

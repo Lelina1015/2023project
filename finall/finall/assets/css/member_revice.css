@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+@font-face {
+    font-family: qi;
+    src: url(../font/drechifont-monospaced.ttf);
+    src: url(../font/drechifont-monospaced.woff);
+  }
+  
+  @font-face {
+    font-family: blackti;
+    src: url(../font/中黑體.ttc);
+  }
+  
+  @font-face {
+    font-family: Cooper Std;
+    src: url(../font/AnyConv.com__CooperBlackStd.ttf);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+iframe{
+    height: 50px;
+    width: 100%;
+  }
+
+* {
+    margin: 0px;
+}
+
+.qatitle {
+    font-family: qi;
+    font-size: 50px;
+    text-align: center;
+    margin: 15px;
+}
+
+.block {
+    display: flex;
+    margin: 5px;
+    size: 100px;
+    background-color: #ffd6da;
+    border-radius: 1%;
+    padding: 3%;
+    line-height: 30px;
+    margin: 5%;
+}
+
+.block_r {
+    float: right;
+    margin-right: 10%;
+
+}
+
+.block_l {
+    float: left;
+    /* margin-left: 10%; */
+    margin-right: 15%;
+    padding-left: 10%;
+}
+
+h2 {
+    font-family: Arial, cwTeXYen;
+    color: white;
+    font-size: 35px;
+    padding: 0px 0px 5px 5px;
+    margin-bottom: 5px;
+}
+
+.form1 {
+    color: white;
+    width: 300px;
+    margin: 10px;
+    /* line-height: 3%; */
+}
+
+.tr1 {
+    padding-left: 4%;
+    width: 300px;
+}
+
+.submit input {
+    width: 150px;
+    border: none;
+    background-color: #f9e7e9;
+    color: #d6606e;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, cwTeXYen;
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-top: 74px
+}
+
+.submit input:hover {
+    background-color: #d6606e;
+    color: #f9e7e9;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.submit input:hover {
+    background-color: #d6606e;
+    color: #f9e7e9;
+}
+
+/* .tpyetext, textarea{
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border: 0.5px solid white;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    outline-style: none;
+} */
+
+.space1 {
+    margin-top: 280px;
+}
+
+
+footer {
+
+    text-align: center;
+    font-size: 18px;
+    font-family: Adobe Caslon Pro;
+    background-color: #C3D6F2;
+    color: white;
+    padding: 5px;
+}

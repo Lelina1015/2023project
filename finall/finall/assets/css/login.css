@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@font-face {
+    font-family: qi;
+    src: url(../font/drechifont-monospaced.ttf);
+    src: url(../font/drechifont-monospaced.woff);
+  }
+  
+  @font-face {
+    font-family: blackti;
+    src: url(../font/中黑體.ttc);
+  }
+  
+  @font-face {
+    font-family: Cooper Std;
+    src: url(../font/AnyConv.com__CooperBlackStd.ttf);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+iframe{
+    height: 50px;
+    width: 100%;
+  }
+
+.login {
+    margin-top: 150px;
+    margin-left: 30%;
+    display: block;
+    width: 40%;
+    height: 450px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #3A4F7A;
+    background-color: #FFC6D3;
+    border-spacing: 10px;
+    box-shadow: 6px 4px 2px #444;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-bottom: 150px;
+}
+
+.login h1 {
+    margin-top: 50px;
+    font-family: Cooper Std;
+    font-size: 30px;
+    color: white;
+}
+
+.login p {
+    margin-top: 50px;
+    font-size: blackti;
+}
+
+.login input {
+    margin-left: 5px;
+}
+
+.buttonLOOK {
+    border: 0;
+    background-color: #E98EAD;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    display: inline;
+    font-family: blackti;
+}
+
+.register {
+    margin-top: 50px;
+    font-family: blackti;
+}
+
+.register a {
+    color: #3A4F7A;
+    text-decoration: underline;
+    font-family: blackti;
+}
+
+footer {
+
+    text-align: center;
+    font-size: 15px;
+    font-family: Adobe Caslon Pro;
+    background-color: #C3D6F2;
+    color: white;
+    padding: 10px;
+}

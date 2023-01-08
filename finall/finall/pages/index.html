@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>視界</title>
+    <link rel="stylesheet" href="../assets/css/home.css">
+</head>
+<body>
+    <iframe src="nav.html" frameborder="0"></iframe>
+      <main class="main">
+        <!--理念-->
+        <section class="top-wrapper">
+            <img src="../assets/images/banner.png" style="width:100%;">
+        </section>
+        <!--幻燈片-->
+        <section>
+            <div class="section1">
+                <div class="slideshow-container">
+                    <!--第一張幻燈片-->
+                    <div class="mySlides fade" style="display: block;">
+                        <img src="../assets/images/20200518192612_1.jpg" style="width: 100%; height: 550px;">
+                    </div>
+                    <!--第二張幻燈片-->
+                    <div class="mySlides fade" style="display: none;">
+                        <img src="../assets/images/messageImage_1671653694862.jpg" style="width: 100%; height: 550px;">
+                    </div>
+                    <!--第三張幻燈片-->
+                    <div class="mySlides fade" style="display: none;">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img src="../assets/images/messageImage_16716542219421.jpg" style="width: 100%; height: 550px;">
+                    </div>
+                </div>
+                <br>
+                <!-- 點點-->
+                <div style="text-align:center">
+                    <span class="dot active"onclick="currentSlide(1)"></span>
+                    <span class="dot"onclick="currentSlide(2)"></span>
+                    <span class="dot"onclick="currentSlide(3)"></span>
+                </div>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+        
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        setTimeout(showSlides, 4000); 
+                    }
+                </script>
+            </div>
+        </section>
+        
+        <!--排行榜-->
+        <div class="HOT">
+            <h2>HOT</h2>
+            <section class="card" id="">
+                <div class="HOT1" >
+                    <h3 style="text-align:center">Top 1</h3><br>
+                    <!--herf裡放產品連結， scr放產品圖片，名字改品名-->
+                    <a href="../pages/OD01.html"><img src="../assets/images/leaderboard/01.jpg" style="width: 300px;height: 300px;"></a> 
+                    <h4>ViVi Ring 1Day Brown</h4>
+                </div>
+            
+            </section>
+  
+            <section class="card" >
+                    <div class="HOT2">
+                        <h3 style="text-align:center">Top 2</h3><br>
+                        <!--herf裡放產品連結， scr放產品圖片，名字改品名-->
+                        <a href="../pages/ID03.html"><img src="../assets/images/leaderboard/02.png" style="width: 300px;height: 300px"></a> 
+                    </div>
+                    <h4>Yurial Water Brown 1 Day 水光玻璃珠</h4>
+                </section>
+        
+            <section class="card" >
+                    <div class="HOT3" >
+                        <h3 style="text-align:center">Top 3</h3><br>
+                        <!--herf裡放產品連結， scr放產品圖片，名字改品名-->
+                        <a href="../pages/LD01.html"><img src="../assets/images/leaderboard/03.jpg" style="width: 300px;height: 300px"></a> 
+                    </div>
+                    <h4>LENS ME Makeover Bayvely Brown</h4>
+                </section>
+        </div>
+      </main>
+      <!--尾巴-->
+      <iframe src="footer.html" frameborder="0"></iframe>
+</body>
+</html>
